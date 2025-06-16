@@ -30,7 +30,7 @@ app.use(limiter);
 // CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://yourdomain.com'] 
+    ? ['https://developer-work-panel.netlify.app'] 
     : ['http://localhost:3000'],
   credentials: true
 }));
